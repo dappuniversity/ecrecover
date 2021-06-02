@@ -13,16 +13,13 @@
   "author": "gregory@dappuniversity.com",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "chai-bignumber": "^2.0.2",
-    "dotenv": "^4.0.0",
-    "ganache-cli": "^6.1.8",
-    "lite-server": "^2.3.0",
-    "nodemon": "^1.17.3",
-    "solidity-coverage": "^0.4.15",
-    "truffle": "5.0.0-beta.0",
-    "truffle-flattener": "^1.2.3",
-    "truffle-hdwallet-provider": "^1.0.0-web3one.0"
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.3.4",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.11"
   }
 }

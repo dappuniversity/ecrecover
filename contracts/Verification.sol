@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.16;
 
 /**
  * Based upon ECDSA library from OpenZeppelin Solidity
@@ -12,7 +12,7 @@ contract Verification {
    * @param hash bytes32 message, the hash is the signed message. What is recovered is the signer address.
    * @param signature bytes signature, the signature is generated using web3.eth.sign()
    */
-  function recover(bytes32 hash, bytes signature)
+  function recover(bytes32 hash, bytes memory signature)
     public
     pure
     returns (address)
